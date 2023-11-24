@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/do-an/images/meo1223.avif);
+    background-repeat: no-repeat;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-register{
+    width: 600px;
+    height: 700px;
+    background-color: rgba(0, 0, 0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: white;
+    flex-direction: column;
+}
+
+.table-register p{
+    font-size: 20px;
+}
+.table-register h2{
+    color: #ffb55a;
+}
+
+.register h2, a, span{
+    margin-top: 20px;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.design-checkbox{
+    margin-top: 20px;
+
+}
+
+.table-register label, .sign-up-btn{
+    margin-top: 30px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+}
+.design-checkbox p{
+    display: inline-block;
+    font-size: 17px;
+}
+
+.register input[type=text], input[type=password], input[type=email]{
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: rgba(247, 243, 243, 0.315);
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.table-register input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+    box-shadow: 0 0 0 2px rgb(255, 255, 255);
+}
+.table-register .sign-up-btn{
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 300px;
+    margin: 20px auto;
+    background-color: rgb(108, 108, 216);
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+a{
+    color: rgb(151, 223, 118);
+}
+
